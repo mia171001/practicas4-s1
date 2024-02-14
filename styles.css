@@ -1,0 +1,44 @@
+/* Selector de etiqueta */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Selector de clase */
+.classparrafo {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* Selector ID */
+#idtexto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector Descendencia */
+
+section .parrafodos {
+    color: blue;
+}
+
+/* Selector hijo directo */
+section>.parrafodos {
+    background-color: lightblue;
+}
+
+/* Selector hermano siguiente o adyacente */
+.parrafodos+.classparrafo {
+    margin-top: 20px;
+}
+
+/* Selector hermanos siguiente o adyacente */
+.parrafodos~.classparrafo {
+    margin-left: 30px;
+}
+
+/* Selector de anidamiento */
+section .classparrafo p {
+    color: green;
+}
